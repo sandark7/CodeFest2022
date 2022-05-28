@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Eternal UI';
+  src: url("EternalUI-Regular.woff2") format('woff2'), url("EternalUI-Regular.woff") format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 li,
 th,
 td {
@@ -5,7 +12,7 @@ td {
 }
 blockquote {
   font-family: 'PT Mono', sans-serif;
-  color: #ff4141;
+  color: #55a6d3;
   font-weight: 100;
   letter-spacing: -1px;
 }
@@ -23,13 +30,13 @@ blockquote:before {
   height: 75px;
   min-width: 55px;
   color: #fff;
-  font-family: 'IBM Plex Mono', sans-serif;
+  font-family: 'Eternal UI', sans-serif;
   font-size: 40px;
   padding-top: 0;
   margin-left: 30px;
 }
 .slide.rbn::after {
-  background: #ff4141;
+  background: #55a6d3;
 }
 .slide::before {
   position: absolute;
@@ -45,9 +52,9 @@ blockquote:before {
 }
 .slide h2 {
   color: #000;
-  font-family: 'PT Mono', sans-serif;
+  font-family: 'Eternal UI', sans-serif;
   font-weight: 100;
-  letter-spacing: -3px;
+  letter-spacing: 1px;
 }
 .slide a {
   color: #008000;
@@ -91,7 +98,7 @@ blockquote:before {
   color: #999;
 }
 .progress:before {
-  background: #ff4141;
+  background: #55a6d3;
 }
 .tag {
   color: #ad1531;
@@ -123,7 +130,7 @@ blockquote:before {
   opacity: 0;
 }
 .slide.menu-slide .selected-item {
-  background-color: #ff4141;
+  background-color: #55a6d3;
   display: inline-block;
 }
 .slide.menu-slide .transparent {
@@ -131,19 +138,19 @@ blockquote:before {
 }
 .slide.label-header h2 {
   display: inline-block;
-  background-color: #fe0;
+  background-color: #c74251;
   padding: 10px 15px 15px;
-  font-family: 'PT Mono', sans-serif;
+  font-family: 'Eternal UI', sans-serif;
   font-size: 44px;
-  letter-spacing: -3px;
+  letter-spacing: 1.5px;
+  color: #fff;
 }
 .slide.label-header h2.shout {
   margin-left: 0;
   padding: 20px 0 30px;
   font-size: 62px;
-  border: 1px solid #ff4141;
-  background: none;
-  letter-spacing: -1px;
+  border: none;
+  background: #000;
 }
 .slide.label-header.bg h2 {
   background: none;
@@ -189,7 +196,7 @@ figcaption {
   margin-top: 40px !important;
 }
 .label {
-  background-color: #ff4141;
+  background-color: #55a6d3;
   color: #fff;
   padding: 0 10px;
   display: inline-block;
